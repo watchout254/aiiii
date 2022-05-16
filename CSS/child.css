@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:cursive;
+    background-image:url(../IMAGES/watoto.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}
+
+.logo {
+    clip-path: circle();
+}
+
+.dropdown {
+    margin: 0 auto;
+}
+
+nav {
+    box-shadow: 0 9px 10px;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    float: right;
+    margin-right: 30px;
+}
+
+nav ul li {
+    position: relative;
+    list-style: none;
+    display: inline-block;
+
+}
+
+nav ul li a {
+    display: block;
+    padding: 0 15px;
+    color:moccasin;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    color:dodgerblue;
+} 
+
+nav ul ul {
+    position: absolute;
+    top: 60px;
+    display: none;
+}
+
+nav ul li:hover > ul {
+    display: block;
+
+}
+
+nav ul ul li {
+    width: 150px;
+    float: none;
+    display: list-item;
+    position: relative;
+
+}
+
+nav ul ul ul li {
+    position: relative;
+    top: -60px;
+    left: 150px;
+}
+
+.smlinks ul li a {
+    color: moccasin;
+    font-style: oblique;
+    text-decoration: none;
+}
+
+p{
+    text-align: center;
+    color: mistyrose;
+    font-weight: bolder;
+}
+
+h4 {
+    color:cornsilk;
+    text-decoration: overline;
+}
